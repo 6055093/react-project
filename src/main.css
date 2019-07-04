@@ -1,4 +1,201 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(235, 230, 230);
+  margin: 0;
+}
+.logoTitle {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: #0084ff;
+  color: white;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.navbarSpacer {
+  position: relative;
+  height: 70px;
+}
+.searchBar {
+  border-radius: 5px;
+  float: right;
+  padding: 5px;
+  border: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 70%;
+}
+.navLink {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.deckSection {
+  display: flex;
+  margin-top: 50px;
+}
+.deckCard {
+  display: block;
+  margin: 20px;
+  background-color: white;
+  width: 10vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.title {
+  background-color: #504e4e;
+  color: white;
+  padding: 15px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1rem;
+  min-width: 100%;
+  text-align: center;
+}
+.playBtn {
+  background-color: #0084ff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.playContainer {
+  background-color: white;
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-width: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 70px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 60vw;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.questionContainer {
+  background-color: #504e4e;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  font-size: 25px;
+  width: 60vw;
+  text-align: center;
+}
+
+.answersContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.answerChoice {
+  background-color: #0084ff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding: 5px;
+  margin: 15px;
+  color: white;
+  width: 90%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.resultSlogan {
+  text-align: center;
+}
+
+.deckForm {
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 80%;
+  margin: 10px;
+}
+
+.formInput {
+  min-width: 95%;
+  border-radius: 5px;
+  box-sizing: content-box;
+  padding: 8px 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.deckTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.deckTitleForm {
+  border-radius: 5px;
+  box-sizing: content-box;
+  padding: 8px 20px;
+  min-width: 80%;
+}
+
+.addCard {
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 82%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.submitNewDeck {
+  border: solid 1px lightgrey;
+  background-color: #0084ff;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 82%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  cursor: pointer;
 }
